@@ -13,3 +13,33 @@ body{
     height: 85vh;
     font-size: 30px;
 }
+
+.box1{
+    padding: 1rem;
+    border: 1px solid lightgray;
+    width: 20rem;
+    height: 5rem;
+    background-color: rgb(55, 106, 173);
+}
+
+.box2{
+    padding: 1rem;
+    border: 1px solid lightgray;
+    width: 20rem;
+    height: 5rem;
+    background-color: crimson;
+}
+
+.box3 {
+    padding: 1rem;
+    border: 1px solid lightgray;
+    width: 20rem;
+    height: 5rem;
+    background-color: rgb(157, 220, 245);
+}
+
+.box1, .box2, .box3{
+    display: block;
+    margin: 70px;
+    
+}
