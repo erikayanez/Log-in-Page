@@ -4,4 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
+body{
+    margin: 20px 20px;
+    border: 2px solid black;
+    font-family: outfit;
+    width: 95vw;
+    height: 85vh;
+    font-size: 30px;
+}
