@@ -17,6 +17,7 @@ body{
 .block {
     margin: 10px 10px auto;
     border: 1px solid lightgray;
+    width: 30rem;
 }
 
 .box{
@@ -43,7 +44,114 @@ body{
     background-color: rgb(157, 220, 245);
 }
 
-.box1, .box2, .box3{
+.box, .box2, .box3{
     display: block;
     margin: 70px;
 }
+
+.right {
+    position: relative;
+    left: 33rem;
+    bottom: 33rem;
+    margin: 10px 10px auto;
+    border: 1px solid lightgray;
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+     font-family: outfit;
+    font-size: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+div form fieldset {
+    border: none;
+}
+
+
+input::placeholder {
+    font-family: outfit;
+    font-size: 20px;
+
+}
+input {
+        border-top: white;
+        border-right: white;
+        border-left: white;
+        border-bottom: gray;     
+}
+
+#email {
+ position: relative;
+ top: 4rem;
+ left: 6rem;
+ border-bottom: black;
+ z-index: -1;
+}
+
+#password {
+    position: relative;
+    top: 12rem;
+    left: 6rem;
+    border-bottom: gray;
+}
+
+p {
+    position: relative;
+    top: 18rem;
+    left: 5rem;
+    color:rgb(90, 88, 88);
+    font-weight: 700;
+    font-family: outfit;
+    font-size: 20px;
+}
+
+#send {
+    position: relative;
+    top: 16rem;
+    left: 20rem;
+    font-family: outfit;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(65, 173, 223);
+    width: 9vw;
+    height: 6vh;
+    border-radius: 10%;
+}
+
+
+/* .otherblock {
+    .block {
+        margin: 10px 10px auto;
+        border: 1px solid lightgray;
+        width: 30rem;
+} */
+
+/* box{
+    padding: 1rem;
+    border: 1px solid lightgray;
+    width: 20rem;
+    height: 5rem;
+    background-color: rgb(55, 106, 173);
+}
+
+.box2{
+    padding: 1rem;
+    border: 1px solid lightgray;
+    width: 20rem;
+    height: 5rem;
+    background-color: crimson;
+}
+
+.box3 {
+    padding: 1rem;
+    border: 1px solid lightgray;
+    width: 20rem;
+    height: 5rem;
+    background-color: rgb(157, 220, 245);
+} */

@@ -13,21 +13,34 @@
 </head>
 
 <body>
-    <section class="block">
-    <div class="box">
-        <i class="fab fa-facebook-f"></i>
-        <span>Facebook login</span>
+    <div class="block">
+        <div class="box">
+            <i class="fab fa-facebook-f"></i>
+            <span>Facebook login</span>
+        </div>
+        <div class="box2">
+            <i class="fa-brands fa-google-plus-g"></i>l
+            <span>Google + login</span>
+        </div>
+        <div class="box3">
+            <i class="fab fa-twitter"></i>
+            <span>Twitter login</span>
+        </div>
     </div>
-    <div class="box2">
-        <i class="fa-brands fa-google-plus-g"></i>l
-        <span>Google + login</span>
+
+    <div class="right">
+        <form action="index.js" method="get">
+            <fieldset>
+                <h1>Sing in with</h1>
+                <input type="email" name="email" id="email" placeholder="Username or email"> <br>
+                <input type="password" placeholder="Password" id="password">
+                <p>Remember me</p>
+                <input type="submit" value="LOGIN" id="send">
+            </fieldset>
+        </form>
     </div>
-    <div class="box3">
-        <i class="fab fa-twitter"></i>
-        <span>Twitter login</span>
-    </div>
-    </section>
-    <section class="2block">
+
+    <!-- <div class="otherblock">
         <div class="box4">
             <i class="fa-light fa-user"></i>
             <span>Username or email</span>
@@ -40,6 +53,6 @@
             <span>Remember me</span>
             <input type="">
         </div>
-        </section>
+    </div> -->
 </body>
 </html>
