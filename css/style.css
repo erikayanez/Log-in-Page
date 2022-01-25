@@ -10,14 +10,16 @@ body{
     border: 2px solid lightgray;
     font-family: outfit;
     width: 85vw;
-    height: 75vh;
+    height: 80vh;
     font-size: 30px;
 }
 
 .block {
     margin: 10px 10px auto;
     border: 1px solid lightgray;
-    width: 30rem;
+    width: 33rem;
+    border-top: transparent;
+    border-left: transparent;
 }
 
 .box{
@@ -54,12 +56,16 @@ body{
     left: 33rem;
     bottom: 33rem;
     margin: 10px 10px auto;
+    padding-right: 2rem;
     border: 1px solid lightgray;
     width: 30rem;
-    height: 30rem;
+    height: 32.5rem;
     position: relative;
      font-family: outfit;
     font-size: 10px;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent; 
 }
 
 h1 {
@@ -109,11 +115,11 @@ input {
 p {
     position: relative;
     top: 18rem;
-    left: 5rem;
+    left: 6rem;
     color:rgb(90, 88, 88);
     font-weight: 700;
     font-family: outfit;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #send {
@@ -130,34 +136,31 @@ p {
     border-bottom: 2px solid rgb(65, 173, 223);
 }
 
-
-/* .otherblock {
-    .block {
-        margin: 10px 10px auto;
-        border: 1px solid lightgray;
-        width: 30rem;
-} */
-
-/* box{
-    padding: 1rem;
-    border: 1px solid lightgray;
-    width: 20rem;
-    height: 5rem;
-    background-color: rgb(55, 106, 173);
+. footer {
+    font-size: 20px;
+    width: 85vw;
+    height: 5vh;
 }
 
-.box2{
-    padding: 1rem;
-    border: 1px solid lightgray;
-    width: 20rem;
-    height: 5rem;
-    background-color: crimson;
+h2 {
+ font-family: outfit;
+    font-size: 28px;
+    color: blue;
+    position: relative;
+    bottom: 32rem;
+    text-align: center;
 }
 
-.box3 {
-    padding: 1rem;
-    border: 1px solid lightgray;
-    width: 20rem;
-    height: 5rem;
-    background-color: rgb(157, 220, 245);
-} */
+.checkbox {
+    position: relative;
+    width: 3vw;
+    height: 3vh;
+    top: 19.5rem;
+    left: 3rem;
+}
+
+.fa-regular {
+    position: relative;
+    left: 35rem;
+    bottom: 60rem;
+}
