@@ -10,7 +10,7 @@ body{
     border: 2px solid lightgray;
     font-family: outfit;
     width: 85vw;
-    height: 80vh;
+    height: 87vh;
     font-size: 30px;
 }
 
@@ -145,17 +145,23 @@ p {
 
 .footer {
     font-size: 20px;
-    width: 85vw;
-    height: 5vh;
+    width: 83vw;
+    height: 8vh;
+    background-color: lightskyblue;
+    opacity: 0.7;
+    position: relative;
+    bottom: 33rem;
+    left: 1rem;
 }
 
 h2 {
  font-family: outfit;
     font-size: 28px;
-    color: blue;
+    color: rgb(10, 80, 231);
     position: relative;
-    bottom: 32rem;
+    top: 1rem;
     text-align: center;
+    z-index: -1;
 }
 
 .checkbox {
