@@ -6,12 +6,17 @@
 }
  
 body{
-    margin: 20px 20px;
-    border: 2px solid black;
+    margin: 30px 30px;
+    border: 2px solid lightgray;
     font-family: outfit;
-    width: 95vw;
-    height: 85vh;
+    width: 85vw;
+    height: 75vh;
     font-size: 30px;
+}
+
+.blockl {
+    margin: 10px 10px auto;
+    border: 1px solid lightgray;
 }
 
 .box1{
@@ -41,5 +46,4 @@ body{
 .box1, .box2, .box3{
     display: block;
     margin: 70px;
-    
 }
