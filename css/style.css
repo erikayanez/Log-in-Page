@@ -69,7 +69,7 @@ h1 {
     font-weight: 700;
 }
 
-div form fieldset {
+div form {
     border: none;
 }
 
@@ -77,28 +77,31 @@ div form fieldset {
 input::placeholder {
     font-family: outfit;
     font-size: 20px;
+   
 
 }
 input {
-        border-top: white;
-        border-right: white;
-        border-left: white;
-        border-bottom: gray;     
+        border-top: transparent;
+        border-right: transparent;
+        border-left: transparent;
+             
 }
 
 #email {
  position: relative;
  top: 4rem;
- left: 6rem;
- border-bottom: black;
- z-index: -1;
+ left: 5rem;
+ border-bottom: 2px solid gray;
+ height: 2rem;
 }
 
 #password {
     position: relative;
     top: 12rem;
-    left: 6rem;
-    border-bottom: gray;
+    right: 6rem;
+    width: 15rem;
+    height: 2rem;
+    border-bottom: 2px solid gray;
 }
 
 p {
@@ -122,6 +125,7 @@ p {
     width: 9vw;
     height: 6vh;
     border-radius: 10%;
+    border-bottom: 2px solid rgb(65, 173, 223);
 }
 
 
