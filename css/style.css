@@ -14,12 +14,12 @@ body{
     font-size: 30px;
 }
 
-.blockl {
+.block {
     margin: 10px 10px auto;
     border: 1px solid lightgray;
 }
 
-.box1{
+.box{
     padding: 1rem;
     border: 1px solid lightgray;
     width: 20rem;
