@@ -9,17 +9,18 @@ body{
     margin: 30px 30px;
     border: 2px solid lightgray;
     font-family: outfit;
-    width: 85vw;
-    height: 87vh;
+    width: 60vw;
+    height: 70vh;
     font-size: 30px;
 }
 
 .block {
     margin: 10px 10px auto;
     border: 1px solid lightgray;
-    width: 33rem;
+    width: 25vw;
     border-top: transparent;
     border-left: transparent;
+    border-bottom: transparent;
 }
 
 a {
@@ -145,13 +146,13 @@ p {
 
 .footer {
     font-size: 20px;
-    width: 83vw;
+    width: 60vw;
     height: 8vh;
     background-color: lightskyblue;
     opacity: 0.7;
     position: relative;
     bottom: 33rem;
-    left: 1rem;
+
 }
 
 h2 {
@@ -175,12 +176,12 @@ h2 {
 .fa-regular {
     position: relative;
     left: 37rem;
-    bottom: 65rem;
+    bottom: 67rem;
 }
 .fas {
     position: relative;
     left: 35rem;
-    bottom: 57rem;
+    bottom: 59rem;
 }
 
 .or {
