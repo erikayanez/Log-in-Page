@@ -1,9 +1,9 @@
 ## Project Login Page
 
-![screenshot of the project](./images/periodic-table)
+![screenshot of the project](./images/login-page.png)
 
 ## About the project:
-> This project is created in order to get a better understanding on how :nth-child works, how to target an individual element or a block of them.
+> This project shows how positioning, classes and pseudo-classes are used to create a login page.
 
 - **Description:**
 > For this project it was required to create a webpage using Html and Css, and then create a repository in GitHub.
@@ -15,6 +15,7 @@
 
 - **Tools:**
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Google Fonts](https://fonts.google.com/)
 
 - **Contact:**
 GitHub: [erikayanez](https://github.com/)<br>
