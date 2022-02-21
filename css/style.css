@@ -37,6 +37,9 @@ a {
     height: 5rem;
     background-color: rgb(55, 106, 173);
 }
+.fa-facebook-f, .fa-google-plus-g, .fa-twitter {
+    color: white;
+}
 
 .box2{
     padding: 1rem;
